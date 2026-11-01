@@ -1,0 +1,51 @@
+데빌즈 서드 ZIP 자동 한글 패처 v0.8
+
+실행 파일: WiiU-Devils-Third-Kr-v0.8-ZIP.exe
+지원 원본: Devils Third (10197D00) (Japan).zip — Wii U 일본판 v0 전용
+Windows 10/11 64비트용. Python·별도 복호화 도구는 필요하지 않습니다.
+
+사용 방법
+1. EXE를 실행합니다.
+2. ZIP 선택을 눌러 받은 원본 일본판 ZIP 파일을 선택합니다.
+3. 한글 게임 만들기를 누릅니다.
+4. 압축 해제·복호화·원본 검사·한글 패치를 자동으로 처리합니다.
+5. 완료되면 원본 ZIP 옆에 [Kr v0.8]이 붙은 한글 게임 폴더가 생깁니다.
+
+압축을 직접 풀거나 code/content/meta 폴더를 직접 만들 필요가 없습니다.
+원본 ZIP은 변경하지 않습니다. 기존 폴더를 덮어쓰지 않고 결과 폴더를 새로 만듭니다.
+저장 위치는 바꿀 수 있으며, 결과 게임과 작업 공간으로 약 20 GB의 여유 공간이 필요합니다.
+
+Cemu에서 실행
+- 결과 폴더를 게임 경로에 등록합니다.
+- 또는 code/DevilsThirdGameNT-WiiU-Shipping.rpx 파일을 실행합니다.
+- Android라면 결과 폴더의 code/content/meta를 기기에 복사하고 Cemu 게임 경로로 등록합니다.
+
+한글 표시 필수 설정
+- Cemu Console language = Japanese
+- 게임 내 Language(언어) = Japanese / 日本語
+- 게임 내 자막 = 켜기(On)
+게임 언어를 일본어로 골라야 한국어 문구가 표시됩니다.
+
+Android 테스트 환경
+- Retroid Pocket Nova / Android 13
+- Cemu Android v0.5.2
+- Custom driver 24.3.0 (Turnip, Mesa 24.3.0-devel)
+- Edit game profile → CPU mode → Single-core recompiler
+
+한글화 내용
+- 메뉴·대사·기존 자막 6,740개, 한글 글꼴 및 한글 영상 90개.
+- 나레이션·브리핑의 영어 덧씌우기 영상 13개는 원본 복원.
+- 게임 그림 텍스처는 원본 유지.
+- 부분 한글 패치이며 새 무자막 음성 자막 추가·전체 구간 검수는 미완료입니다.
+
+원본 검사와 안전 처리
+- 지정 일본판 v0의 게임 정보와 내부 원본 데이터를 확인합니다.
+- 복호화된 게임 파일 2,556개의 SHA-256을 검사합니다.
+- 완성된 한글 패치 파일의 SHA-256을 검사합니다.
+- 잘못된 ZIP, 손상된 데이터 또는 공간 부족이면 중단합니다.
+- 취소하면 미완료 작업 폴더를 정리하고 원본 ZIP은 보존합니다.
+
+EXE SHA-256:
+59a42a90789ff9c66f07f53421d232eb95d4fdef95148989d3d51846359684f2
+
+구성 요소·글꼴 라이선스: 함께 제공하는 THIRD_PARTY_LICENSES.zip 및 저장소 LICENSES 디렉터리.
