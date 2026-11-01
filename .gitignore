@@ -1,0 +1,10 @@
+*.exe
+*.xdelta
+*.zip
+*.log
+__pycache__/
+code/
+content/
+meta/
+.DevilsThirdKR-backup/
+.DevilsThirdKR-stage-*/

@@ -1,0 +1,7 @@
+Xdelta 3.2.1
+Copyright (C) Joshua MacDonald
+https://github.com/jmacd/xdelta/releases/tag/v3.2.1
+Licensed under the Apache License, Version 2.0.
+
+Python and Tcl/Tk are bundled through PyInstaller. See PYTHON-LICENSE.txt.
+PyInstaller: https://pyinstaller.org/ (GPL with bootloader distribution exception).
