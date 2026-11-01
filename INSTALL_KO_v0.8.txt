@@ -1,3 +1,7 @@
+지원 원본: Devils Third (10197D00) (Japan) — Wii U 일본판 v0 전용
+타이틀 ID: 0005000010197D00
+타이틀 ID·버전 및 패치 대상 파일의 SHA-256 검사 후 적용합니다.
+
 데빌즈 서드 Wii U 일본판 한글 패처 — v0.8 원본 전용 경량판
 
 실행 파일: WiiU-Devils-Third-Kr-v0.8.exe
